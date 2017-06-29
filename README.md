@@ -1,5 +1,11 @@
 # Lf-generator
 
+## Installation
+```shell
+composer install terranc/lf-generator
+```
+
+
 ## Usage
 ```shell
 php artisan app:xxx
