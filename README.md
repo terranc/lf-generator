@@ -9,7 +9,7 @@ composer install terranc/lf-generator --dev
 ```
 
 ### Step 2
-In the `appServiceProvider.php`` boot` method inside add:
+Add the following code to your `app/Providers/AppServiceProvider.php` file, within the `root()` method:
 ```php
 if ($this->app->environment() == 'local') {
   $this->app->register(\Lookfeel\Boilerplate\GeneratorCommandServiceProvider::class);
