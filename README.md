@@ -32,3 +32,6 @@ php artisan app:xxx
   app:repository       Create a new repository class
   app:scope            Create a new scope traits for model
 ```
+
+## Links
+[hariadi/laravel-boilerplate-generator](https://github.com/hariadi/laravel-boilerplate-generator)
