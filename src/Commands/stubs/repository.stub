@@ -8,10 +8,11 @@ use App\Exceptions\GeneralException;
 
 class {{class}} extends BaseRepository
 {
-    public $model;
 
+    public $model, $query;
     public function __construct({{model}} ${{variable}})
     {
         $this->model = ${{variable}};
+        $this->query = $this->model->query();
     }
 }
