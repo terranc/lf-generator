@@ -1,4 +1,4 @@
-# Lf-generator
+# LF-generator
 
 ## Installation
 
