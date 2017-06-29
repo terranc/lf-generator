@@ -1,0 +1,17 @@
+<?php
+
+namespace {{namespace}};
+
+use App\Repositories\BaseRepository;
+use App\Models\{{model}}\{{model}};
+use App\Exceptions\GeneralException;
+
+class {{class}} extends BaseRepository
+{
+    public $model;
+
+    public function __construct({{model}} ${{variable}})
+    {
+        $this->model = ${{variable}};
+    }
+}

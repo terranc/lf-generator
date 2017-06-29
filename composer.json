@@ -1,0 +1,26 @@
+{
+    "name": "terranc/lf-generator",
+    "description": "Laravel 5 repository / model generator.",
+    "keywords": ["laravel", "repository"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "terranc",
+            "email": "terran.chao@lookfeel.co"
+        }
+    ],
+    "require": {
+        "illuminate/console": "^5.4",
+        "illuminate/support": "^5.4",
+        "illuminate/filesystem": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "mockery/mockery": "^0.9.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lookfeel\\Boilerplate\\": "src/"
+        }
+    }
+}
