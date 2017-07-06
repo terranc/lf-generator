@@ -2,7 +2,6 @@
 
 namespace {{namespace}};
 
-use App\Repositories\BaseRepository;
 use App\Models\{{model}}\{{model}};
 use App\Exceptions\GeneralException;
 

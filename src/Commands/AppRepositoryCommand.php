@@ -75,6 +75,6 @@ class AppRepositoryCommand extends AppGeneratorCommand
      */
     protected function getDefaultNamespace($rootNamespace)
     {
-        return $rootNamespace . '\Repositories' .'\\' . dirname($this->argument('name'));
+        return $rootNamespace . '\Repositories';
     }
 }
