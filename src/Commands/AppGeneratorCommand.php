@@ -83,7 +83,7 @@ abstract class AppGeneratorCommand extends Command
             'model' => $model,
             'namespace' => $this->getNamespace($name),
             'class' => $class,
-            'variable' => strtolower($model),
+            'variable' => Str::camel($model),
         ]);
 
         $stub = $this->compileMethods($stub, $this->getMethods());
