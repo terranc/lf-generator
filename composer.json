@@ -22,5 +22,12 @@
         "psr-4": {
             "Lookfeel\\Boilerplate\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lookfeel\\Boilerplate\\GeneratorCommandServiceProvider"
+            ]
+        }
     }
 }
