@@ -31,6 +31,7 @@ php artisan app:xxx
   app:relationship     Create a new relationship traits for model
   app:repository       Create a new repository class
   app:scope            Create a new scope traits for model
+  app:service          Create a new service class
 ```
 
 ## Links
