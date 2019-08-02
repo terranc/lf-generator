@@ -8,6 +8,7 @@ use Lookfeel\Boilerplate\Commands\AppScopeCommand;
 use Lookfeel\Boilerplate\Commands\AppAttributeCommand;
 use Lookfeel\Boilerplate\Commands\AppRepositoryCommand;
 use Lookfeel\Boilerplate\Commands\AppRelationshipCommand;
+use Lookfeel\Boilerplate\Commands\AppServiceCommand;
 
 class GeneratorCommandServiceProvider extends ServiceProvider
 {
@@ -42,6 +43,7 @@ class GeneratorCommandServiceProvider extends ServiceProvider
             AppAttributeCommand::class,
             AppRepositoryCommand::class,
             AppRelationshipCommand::class,
+            AppServiceCommand::class,
         ]);
     }
 }
